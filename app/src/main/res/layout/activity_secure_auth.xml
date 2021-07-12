@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_shape"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".auth.auth">
+
+    <LinearLayout
+        android:paddingTop="30dp"
+        android:gravity="center|top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_margin="20dp"
+        android:textColor="@color/purple_500"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"/>
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/tv_err_password"
+            android:textColor="#F60707"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"/>
+
+        <EditText
+            android:background="@drawable/background_shape"
+            android:layout_margin="30dp"
+            android:id="@+id/et_old_password"
+            android:visibility="gone"
+            android:password="true"
+            android:textColor="@color/purple_500"
+            android:paddingLeft="25px"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint=" Old password here.......!" />
+
+
+    <EditText
+        android:background="@drawable/background_shape"
+        android:layout_margin="30dp"
+        android:id="@+id/et_password_1"
+        android:textColor="@color/purple_500"
+        android:paddingLeft="25px"
+        android:password="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint=" New password here.......!" />
+
+    <EditText
+        android:background="@drawable/background_shape"
+        android:layout_margin="30dp"
+        android:id="@+id/et_password_2"
+        android:password="true"
+        android:textColor="@color/purple_500"
+        android:paddingLeft="25px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Confirm password here .......!" />
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/btn_save"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_style"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Set Password" />
+
+        <Button
+            android:layout_margin="20dp"
+            android:id="@+id/delete_password"
+            android:textSize="15dp"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:background="@drawable/delete_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Delete Password" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

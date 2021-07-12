@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OcerService</string>
+
+
+    <string name="profile_other">Other profile pic</string>
+    <string name="profile_me">My Profile Pic</string>
+</resources>

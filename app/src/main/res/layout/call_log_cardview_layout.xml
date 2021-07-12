@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@+id/cardViewCall" android:layout_width="match_parent" android:background="@drawable/background_shape"  android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_shape"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/callDelete"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:clickable="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:background="@drawable/ic_baseline_delete_24"
+                android:contentDescription="Delete" />
+
+
+            <TextView
+                android:id="@+id/callName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="abhi"
+                android:textColor="@color/black_berry"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_toRightOf="@+id/callName"
+                android:layout_toLeftOf="@+id/callDate"
+                android:id="@+id/callType"
+                android:paddingTop="8dp"
+                android:paddingLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:text="incoming "
+                android:textColor="#858381"
+                android:textSize="10dp" />
+
+
+
+            <TextView
+
+                android:layout_toLeftOf="@+id/callDelete"
+                android:layout_marginRight="30dp"
+                android:id="@+id/callDate"
+                android:layout_alignEnd="@+id/callDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22-6-2001 "
+                android:textColor="#858381"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_below="@+id/callName"
+                android:id="@+id/phoneNumber"
+                android:paddingTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6666666666666666"
+                android:textColor="#858381"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:paddingTop="-20dp"
+                android:layout_below="@+id/callDelete"
+                android:layout_toLeftOf="@+id/callDelete"
+                android:id="@+id/callDurationSeconds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="37dp"
+                android:text="12:20:22 "
+                android:textColor="#858381"
+                android:textStyle="italic" />
+
+
+
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/callStartTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:text=""
+                android:textColor="#858381"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/callEndTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:text=" none "
+                android:textColor="#858381"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

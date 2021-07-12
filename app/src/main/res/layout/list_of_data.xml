@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+    <androidx.cardview.widget.CardView app:cardBackgroundColor="#424242" android:layout_marginBottom="1dp" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/cvItem" android:layout_gravity="center" xmlns:aapt="http://schemas.android.com/aapt" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:layout_margin="10dp" android:padding="9dp" android:background="@color/incoming_call" android:orientation="vertical">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Sender Name : " android:textColor="#a6a29c" android:textStyle="bold" android:textSize="15dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/senderName" android:text="Sender Name: " android:textColor="#858381" android:textStyle="italic" android:textSize="16dp" android:layout_marginLeft="30dp"/>
+
+</LinearLayout>
+
+
+   <LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Sender Number : " android:textColor="#a6a29c" android:textStyle="bold" android:textSize="15dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/senderNumber" android:text="Sender Number : " android:textColor="#858381" android:textStyle="italic" android:textSize="16dp" android:layout_marginLeft="15dp"/>
+
+</LinearLayout>
+
+
+   <LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Sender Date : " android:textColor="#a6a29c" android:textStyle="bold" android:textSize="15dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/smsDate" android:text="Sender Date : " android:textColor="#858381" android:textStyle="italic" android:textSize="16dp" android:layout_marginLeft="38dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Sender Time : " android:textColor="#a6a29c" android:textStyle="bold" android:textSize="15dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/smsTime" android:text="Sender Time : " android:textColor="#858381" android:textStyle="italic" android:textSize="16dp" android:layout_marginLeft="37dp"/>
+
+</LinearLayout>
+
+
+   <LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Sender Content" android:textColor="#a6a29c" android:textStyle="bold" android:textSize="15dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/smsContent" android:text="Call Content : " android:textColor="#858381" android:textStyle="italic" android:textSize="16dp" android:layout_marginLeft="30dp"/>
+</LinearLayout>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

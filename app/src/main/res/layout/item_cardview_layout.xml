@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@+id/cvItem" android:layout_width="match_parent" android:background="@drawable/circle_button" android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@drawable/background_shape"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/smsdelete"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:clickable="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:background="@drawable/ic_baseline_delete_24"
+                android:contentDescription="Delete" />
+
+
+                <TextView
+                    android:id="@+id/senderNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="numbee"
+                    android:textColor="@color/black_berry"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+            <TextView
+
+               android:layout_toLeftOf="@+id/smsdelete"
+                android:layout_marginRight="30dp"
+                android:id="@+id/smsDate"
+                android:layout_alignEnd="@+id/smsdelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="none "
+                android:textSize="10dp"
+                android:textColor="#858381"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_below="@+id/senderNumber"
+                android:id="@+id/senderName"
+                android:paddingTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" abhi pandey "
+                android:textColor="#858381"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:visibility="gone"
+                android:paddingTop="-20dp"
+                android:layout_below="@+id/smsdelete"
+                android:layout_toLeftOf="@+id/smsdelete"
+                android:id="@+id/smsTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="37dp"
+                android:text="time "
+                android:textColor="#858381"
+                android:textStyle="italic" />
+
+
+
+            <TextView
+                    android:visibility="gone"
+                    android:id="@+id/snderType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="type "
+                    android:textColor="#858381"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+
+
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/smsContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="content"
+                    android:textColor="#858381"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

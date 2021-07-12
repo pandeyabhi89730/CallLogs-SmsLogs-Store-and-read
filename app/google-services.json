@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "263774369374",
+    "firebase_url": "https://spyapp-27ef0-default-rtdb.firebaseio.com",
+    "project_id": "spyapp-27ef0",
+    "storage_bucket": "spyapp-27ef0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263774369374:android:4be5ffcc0eda2a586e26cf",
+        "android_client_info": {
+          "package_name": "com.abhi.spyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263774369374-0v7gus9evkkmhobrrgkda38grm1830f5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-FMx1wwdTZn1s4uWbe6iOKc3TnPd57PA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263774369374-0v7gus9evkkmhobrrgkda38grm1830f5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263774369374:android:c18fb730b7ac42fb6e26cf",
+        "android_client_info": {
+          "package_name": "com.abhi_pandey.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263774369374-0v7gus9evkkmhobrrgkda38grm1830f5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-FMx1wwdTZn1s4uWbe6iOKc3TnPd57PA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263774369374-0v7gus9evkkmhobrrgkda38grm1830f5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
