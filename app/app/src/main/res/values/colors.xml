@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#6D08EA</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+<!-- custom define color design-->
+    <color name="front_design">#B4A088BD</color>
+    <color name="incoming_call">#3F51B5</color>
+    <color name="recieve_call">#03A9F4</color>
+    <color name="outgoing_call">#CDDC39</color>
+    <color name="missed_call">#F44336</color>
+    <color name="black_berry">#323232</color>
+    <color name="colorPrimary">#223DD3</color>
+
+</resources>

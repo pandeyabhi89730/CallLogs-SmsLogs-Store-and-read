@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@+id/cvItem" android:layout_width="match_parent" android:background="@drawable/circle_button" android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@drawable/background_shape"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/callerDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12:2:2021"
+                android:textColor="@color/black_berry"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/call_number"
+                android:layout_below="@+id/callerDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="777777777777777777777 "
+                android:textColor="#858381" />
+
+
+
+            <TextView
+
+                android:id="@+id/callerType"
+                android:layout_alignParentRight="true"
+                android:layout_toLeftOf="@+id/call_number"
+                android:paddingTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" incoming  (duration) "
+                android:textColor="#858381"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:id="@+id/end_time"
+                android:layout_toLeftOf="@+id/callerDate"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="37dp"
+                android:text="12:35 "
+                android:textColor="#858381"
+                android:textStyle="italic" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
